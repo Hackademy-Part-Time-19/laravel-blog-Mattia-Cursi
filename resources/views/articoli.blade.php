@@ -9,9 +9,9 @@
         @foreach($articoli as $chiave => $articolo)
 
         <x-card
-        :titolo="$articolo['articolo']"
-        :categoria="$articolo['categoria']"
-        :descrizione="$articolo['descrizione']"
+        :titolo="$articolo['title']"
+        :categoria="$articolo['category']"
+        :descrizione="$articolo['description']"
         :chiave="$chiave"
         >
         </x-card>

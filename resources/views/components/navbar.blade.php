@@ -27,7 +27,13 @@
                         <a class="nav-link" href="{{route('articoli')}}">Articoli</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{route('article.create')}}">Crea un articolo</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{route('chisono')}}">Chi sono?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('tickets')}}">Ticket</a>
                     </li>
                 </ul>
                 <form class="search-form">
